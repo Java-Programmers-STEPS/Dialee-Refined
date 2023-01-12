@@ -37,45 +37,52 @@
 		</div>
 	</header>
 	<br>
-
-
-	<section id="home" class="hero-section">
-		<div class="container">
-			<div class="row align-items-center">
-				<div class="row">
-					<div class="hero-img wow fadeInUp" data-wow-delay=".5s">
-						<img src="assets/images/AddShop/addRes.jpg" alt="" align="middle"
-							width="1300" height="400">
-					</div>
-				</div>
-			</div>
-		</div>
-		<br> <br>
-	</section>
 	<br>
-
+	<br>
 	<section>
-		<div id="locateSection" class="row align-items-center">
-			<div id="regStore" id="regButtons">
-				<h3 align="center">Register your store on Dialee</h3>
-				<br>
-				<div class="row" >
-					<div class="col-lg-2" id="RegButton">
-						<input type="submit" value="Register your shop"
-							class="main-btn btn-hover wow fadeInUp" data-wow-delay=".6s">
+		<br>
+		<div id="signInSection">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div id="carouselExampleAutoplaying" class="carousel slide"
+							data-bs-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="assets/images/AddShop/add shop.jpg"
+										alt="..." width="800">
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="col-lg-2" id="RegInButton">
-						<input type="submit" value="Registered? Sign in"
-							class="main-btn btn-hover wow fadeInUp" data-wow-delay=".6s">
+
+					<div class="col">
+						<div id="regShopButtons">
+							<h3 align="center">Register your store on Dialee</h3>
+							<br> <br>
+							<br>
+							<div id="regShops" align="center">
+							<div class="row" id="RegButton">
+								<input type="submit" value="Register your shop"
+									class="main-btn btn-hover wow fadeInUp" data-wow-delay=".6s">
+							</div>
+							<br> <br>
+							<div class="row" id="RegInButton">
+								<input type="submit" value="Registered? Sign in"
+									class="main-btn btn-hover wow fadeInUp" data-wow-delay=".6s">
+							</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+	<!-- <br>
 	<br>
-
-	<footer id="footer" class="footer pt-100 pb-70">
-
+	<br>
+ -->
+	<!-- <footer id="footer" class="footer pt-100 pb-70">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-6">
@@ -102,7 +109,7 @@
 
 			</div>
 		</div>
-	</footer>
+	</footer> -->
 
 	<a href="#" class="scroll-top btn-hover"> <i
 		class="fa fa-chevron-up"></i>
