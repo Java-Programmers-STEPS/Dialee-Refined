@@ -18,6 +18,36 @@
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Insert title here</title>
+<script type="text/javascript">
+function signInValidation(){
+	var uname=document.getElementById("userNameInput").value;
+	var namePattern=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+	
+	var pswd=document.getElementById("passWordInput").value;
+	var passPattern=/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*()-])/;
+	if(uname==''){
+		alert('Please enter username');
+		document.getElementById("userNameInput").focus();
+		return false;
+	}
+	if(!namePattern.test(uname)){
+		alert('Please enter a valid username');
+		document.getElementById("userNameInput").focus();
+		return false;
+	}
+	if(pswd==''){
+		alert('Please enter password');
+		document.getElementById("passWordInput").focus();
+		return false;
+	}
+	if(!passPattern.test(pswd)){
+		alert('Upper case, Lower case, Special character and numeric letter are required');
+		document.getElementById("passWordInput").focus();
+		return false;
+	}
+	return true;
+}
+</script>
 </head>
 <body>
 	<header class="header">
@@ -77,14 +107,14 @@
 					</div>
 
 					<div class="col">
-						<form action="">
+						<form action="" onsubmit="return signInValidation()">
 							<h3 align="left">Sign In</h3>
 							<div id="signInForm">
 								<br> <label for="userNameInput" class="form-label">User
 									name</label> <input type="email" class="form-control"
-									id="userNameInput" placeholder="abc@gmail.com"> <br>
+									id="userNameInput" placeholder="abc@gmail.com" name="userNameInput"> <br>
 								<label for="passWordInput" class="form-label">Password</label> <input
-									type="password" class="form-control" id="passWordInput"><br>
+									type="password" class="form-control" id="passWordInput" name="passWordInput"><br>
 								<div id="createOne">
 									<p>
 										Don't have an account? <a href="SignUpPage.jsp">Create
