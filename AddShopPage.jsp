@@ -49,8 +49,8 @@
 							data-bs-ride="carousel">
 							<div class="carousel-inner">
 								<div class="carousel-item active">
-									<img src="assets/images/AddShop/add shop.jpg"
-										alt="..." width="800">
+									<img src="assets/images/AddShop/add shop.jpg" alt="..."
+										width="700">
 								</div>
 							</div>
 						</div>
@@ -59,18 +59,19 @@
 					<div class="col">
 						<div id="regShopButtons">
 							<h3 align="center">Register your store on Dialee</h3>
-							<br> <br>
-							<br>
+							<br> <br> <br>
 							<div id="regShops" align="center">
-							<div class="row" id="RegButton">
-								<input type="submit" value="Register your shop"
-									class="main-btn btn-hover wow fadeInUp" data-wow-delay=".6s">
-							</div>
-							<br> <br>
-							<div class="row" id="RegInButton">
-								<input type="submit" value="Registered? Sign in"
-									class="main-btn btn-hover wow fadeInUp" data-wow-delay=".6s">
-							</div>
+								<div class="row" id="RegButton">
+									<a href="shopRegistrationPage.jsp" rel="nofollow"
+										class="main-btn btn-hover wow fadeInUp" data-wow-delay=".6s">Register
+										your shop</a>
+								</div>
+								<br> <br>
+								<div class="row" id="RegInButton">
+									<a href="signInPage.jsp" rel="nofollow"
+										class="main-btn btn-hover wow fadeInUp" data-wow-delay=".6s">Registered
+										already?Sign in</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -78,11 +79,11 @@
 			</div>
 		</div>
 	</section>
-	<!-- <br>
 	<br>
 	<br>
- -->
-	<!-- <footer id="footer" class="footer pt-100 pb-70">
+	<br>
+
+	<footer id="footer" class="footer pt-100 pb-70">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-6">
@@ -109,7 +110,7 @@
 
 			</div>
 		</div>
-	</footer> -->
+	</footer>
 
 	<a href="#" class="scroll-top btn-hover"> <i
 		class="fa fa-chevron-up"></i>
