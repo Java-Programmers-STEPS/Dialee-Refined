@@ -129,42 +129,6 @@
 	</section>
 	<br>
 
-	<footer id="footer" class="footer pt-100 pb-70">
-
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-6">
-					<div class="footer-widget wow fadeInUp" data-wow-delay=".2s">
-						<div class="logo">
-						<br>
-							<a href="index.html"><img src="assets/images/DialeeLogoFooter.png"
-								alt="" width="180" height="30.3"></a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-lg-3 col-md-6">
-					<div class="footer-widget wow fadeInUp" data-wow-delay=".4s">
-						<h3>About Us</h3>
-						<ul class="links">
-							<li><a href="javascript:void(0)">Home</a></li>
-							<li><a href="javascript:void(0)">Services</a></li>
-							<li><a href="javascript:void(0)">About Us</a></li>
-							<li><a href="javascript:void(0)">How it works</a></li>
-						</ul>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</footer>
-
-	<a href="#" class="scroll-top btn-hover"> <i
-		class="fa fa-chevron-up"></i>
-	</a>
-
-
-
 	<script
 		src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
 		integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
